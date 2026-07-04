@@ -10,6 +10,8 @@ jobs:
 
   trivy:
     uses: ./.github/workflows/trivy.yml
+    permissions:
+      security-events: write
 
   publish:
     needs: [test, trivy]
