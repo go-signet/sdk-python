@@ -2,9 +2,9 @@
 
 [![PyPI](https://img.shields.io/pypi/v/go-signet)](https://pypi.org/project/go-signet/)
 [![Python](https://img.shields.io/pypi/pyversions/go-signet)](https://pypi.org/project/go-signet/)
-[![CI](https://github.com/go-signet/sdk-python/actions/workflows/testing.yml/badge.svg)](https://github.com/go-signet/sdk-python/actions/workflows/testing.yml)
-[![Trivy](https://github.com/go-signet/sdk-python/actions/workflows/trivy.yml/badge.svg)](https://github.com/go-signet/sdk-python/actions/workflows/trivy.yml)
-[![License](https://img.shields.io/pypi/l/go-signet)](LICENSE)
+[![Lint and Testing](https://github.com/go-signet/sdk-python/actions/workflows/testing.yml/badge.svg)](https://github.com/go-signet/sdk-python/actions/workflows/testing.yml)
+[![Trivy Security Scan](https://github.com/go-signet/sdk-python/actions/workflows/trivy.yml/badge.svg)](https://github.com/go-signet/sdk-python/actions/workflows/trivy.yml)
+[![GitHub release](https://img.shields.io/github/v/release/go-signet/sdk-python?include_prereleases)](https://github.com/go-signet/sdk-python/releases)
 
 Python SDK for [Signet](https://github.com/go-signet) — OAuth 2.0 authentication and token management.
 
