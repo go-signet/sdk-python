@@ -8,6 +8,7 @@ on:
   schedule:
     - cron: "0 15 * * *" # 23:00 UTC+8
   workflow_call:
+  workflow_dispatch:
 
 jobs:
   trivy:
