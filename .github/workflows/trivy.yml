@@ -8,6 +8,7 @@ on:
   schedule:
     - cron: "0 15 * * *" # 23:00 UTC+8
   workflow_call:
+  workflow_dispatch:
 
 jobs:
   trivy:
@@ -26,8 +27,9 @@ jobs:
           scan-type: fs
           scan-ref: .
           format: sarif
+          limit-severities-for-sarif: true
           output: trivy-results.sarif
-          exit-code: 0
+          exit-code: "1"
           severity: CRITICAL,HIGH
 
       - name: Upload results to GitHub Security tab
